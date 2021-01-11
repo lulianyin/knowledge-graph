@@ -1,0 +1,2 @@
+﻿unique_id,begin_node_id:START_ID,end_node_id:END_ID,begin_node_name,end_node_name,begin_node_type,end_node_type,relation_type:TYPE,property
+101010,1001,1002,,,,,teacher,
