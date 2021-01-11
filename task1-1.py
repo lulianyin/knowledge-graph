@@ -8,7 +8,7 @@
 from py2neo import Graph, Node, Relationship
 
 # step 2：构建图
-g = Graph("http://localhost:7474",auth=("neo4j","234652mq/3"))
+g = Graph("http://localhost:7474",auth=("neo4j","password"))
 # step 3：创建节点
 tx = g.begin()
 a = Node("Person", name="Alice")

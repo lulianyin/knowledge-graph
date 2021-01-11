@@ -8,7 +8,7 @@
 from neo4j import GraphDatabase
 
 # step 2：连接 Neo4j 图数据库
-driver = GraphDatabase.driver("bolt://localhost:7687", auth=("neo4j", "234652mq/3"))
+driver = GraphDatabase.driver("bolt://localhost:7687", auth=("neo4j", "passeord"))
 
 
 # 添加 关系 函数
