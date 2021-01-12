@@ -305,7 +305,7 @@ MATCH (a:Person {name:'Steve'}), (b:Location {city:'Lynn'}) MERGE (a)-[:BORN_IN 
 
 这里的关系是BORN_IN，表示出生地，同样有一个属性，表示出生年份。
 
-如图 18 ，在人物节点和地区节点之间，人物出生地关系已建立好。
+如图  ，在人物节点和地区节点之间，人物出生地关系已建立好。
 
 2. 创建节点的时候就建好关系
 
@@ -523,7 +523,8 @@ delimiter=^ 指的是csv的分隔符
 3. 指定neo4j使用哪个数据库 这个更改的是起服务的时候哪个数据库
 
 ```s
-  修改 /root/neo4j/conf/neo4j.conf 文件中的 dbms.default_database=mygraph.db
+  修改 neo4j/conf/neo4j.conf 文件中的 dbms.default_database=mygraph.db
+  以及 dbms.active_database=mygraph.db
 ```
 
 4. 重启neo4j就可以看到数据已经导入成功了
